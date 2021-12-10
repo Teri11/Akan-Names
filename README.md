@@ -1,5 +1,5 @@
 ## Akan Names
-A a name calculator website build based on HTML,CSS and Javascript.11/12/2021
+A name calculator website build based on HTML,CSS and Javascript.11/12/2021
 
 By Kubai Augustine Mweteri
 

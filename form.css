@@ -6,3 +6,13 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   
 }
+#title{
+  float: right;
+  color: black;
+}
+#africa{
+  height: 100px;
+}
+#secondname{
+  color:rgb(247, 167, 18) ;
+}

@@ -16,3 +16,30 @@ body {
 #secondname{
   color:rgb(247, 167, 18) ;
 }
+.container h1{
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: Left;
+  vertical-align: Top;
+  font-weight: bold;
+  color: rgb(51, 48, 48);
+  /* margin-top: 30px; */
+}
+.names img{
+  height: 370px;
+  margin-left: 800px;
+  margin-top: -300px;
+}
+
+.form-group{
+  width: 400px;
+  box-shadow: black solid;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 200px;
+}

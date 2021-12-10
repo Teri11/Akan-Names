@@ -35,3 +35,17 @@ body {
   margin-left: 150px;
   margin-top: 70px;
 }
+.akan{
+  font-style: italic;
+}
+.logo1 img{
+  border-radius:50%;
+  /* border-top-left-radius: 50px; */
+  /* border-bottom-right-radius: 50px; */
+  padding-top: 300px;
+  float: right;
+  display: flex;
+  justify-content: column;
+  align-items: end;
+  
+}

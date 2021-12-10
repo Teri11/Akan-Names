@@ -5,6 +5,9 @@ By Kubai Augustine Mweteri
 
 ## Description
 A web application that takes a user's birthday and calculates the day of the week they were born and then, depending on their gender outputs their Akan Name.
+## How it Works
+1.Click to know more button<br>2.Enter your details date<br>3.Choose gender<br>4.Click on know your Akan name<br>5.Your name displays.
+
 ## Design
 <img src="images/landingakan.jpeg" alt="landing">
 <img src="images/formakan.jpeg" alt="form">

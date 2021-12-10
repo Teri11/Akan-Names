@@ -39,18 +39,14 @@
       <div class="container">
         <h2>Enter Date of Birth;</h2>
         <form action="/action_page.php">
-          <div class="form-group">
-            <label for="date">MONTH,DATE,YEAR:</label>
-            <input
-              function()
-              id="tarehe"
-              type="date"
-              class="form-control"
-              id="date"
-              placeholder="Enter date"
-              name="date"
-            />
-          </div>
+          <div class="col-sm-2" id="form1">
+            <form name="myForm">
+            <label for="date">Year:</label>
+            <input type="number" name="name" id="birthYear" required>
+            <label for="month">Month:</label>
+            <input type="number" name="name"  id="month" required>
+            <label for="day">Date:</label>
+            <input type="number" name="name" id="date" required>
           <br />
           <br />
           <!--Checkbox form-->

@@ -24,3 +24,14 @@ body {
   color: rgb(51, 48, 48);
   /* margin-top: 30px; */
 }
+.logo1{
+  float: right;
+  margin-top: -200px;
+}
+#sentence{
+  display: flex;
+  justify-content: end;
+  float: right;
+  margin-left: 150px;
+  margin-top: 70px;
+}

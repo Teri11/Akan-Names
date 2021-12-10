@@ -13,3 +13,14 @@ body {
 #africa{
   height: 100px;
 }
+.container h1{
+  font-family: Roboto;
+  font-style: Bold;
+  font-size: 80px;
+  line-height: 94px;
+  text-align: Left;
+  vertical-align: Top;
+  font-weight: bold;
+  color: rgb(51, 48, 48);
+  /* margin-top: 30px; */
+}

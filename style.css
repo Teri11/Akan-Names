@@ -49,3 +49,11 @@ body {
   align-items: end;
   
 }
+#secondname{
+  color:rgb(247, 167, 18) ;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  color: black;
+}

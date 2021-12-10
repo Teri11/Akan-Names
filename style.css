@@ -13,6 +13,7 @@ body {
 #africa{
   height: 100px;
 }
+
 .container h1{
   font-family: Roboto;
   font-style: Bold;
@@ -52,7 +53,7 @@ body {
 #secondname{
   color:rgb(247, 167, 18) ;
 }
-footer{
+.footer{
   display: flex;
   justify-content: center;
   color: black;

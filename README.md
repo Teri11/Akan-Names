@@ -10,7 +10,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ## Design
 <img src="images/landingakan.jpeg" alt="landing">
-<img src="images/formakan.jpeg" alt="form">
+<img src="images/form.jpeg" alt="form">
 
 
 ## Setup/Installation Requirements

@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link
-  href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
-  rel="stylesheet"
-/>
-<!--bootstrap css-->
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-  crossorigin="anonymous"
-/>
-<!--css link-->
-<link rel="stylesheet" href="forms.css" />
-  <title>Akan names</title>
-  <link
-  rel="shortcut icon"
-  sizes="114x114"
-  href="images/ghana flag.png"
-  type="image/x-icon"
-/>
-</head>
-<body>
-   <!--Form-->
-   <div class="container">
-    <img id="africa" src="images/africa.jpg" alt="" />
-    <a href="index.html">
-      <h3 id="title">
-        AKAN
-        <span id="secondname">NAMES.</span>
-      </h3>
-    </a>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!--css link-->
+    <link rel="stylesheet" href="forms.css" />
+    <title>Akan names</title>
+    <link
+      rel="shortcut icon"
+      sizes="114x114"
+      href="images/ghana flag.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Form-->
     <div class="container">
-      <h2>Enter Date of Birth;</h2>
-      <form action="/action_page.php">
-        <div class="form-group">
-          <label for="date">MONTH,DATE,YEAR:</label>
-          <input function() id="tarehe" type="date" class="form-control" id="date" placeholder="Enter date" name="date"/>
-        </div>
-        <br />
-        <br />
-         <!--Checkbox-->
-         <div class="checkbox">
-          <label>
-            <input onclick="birthYear()" id="male" type="checkbox" name="remember" />
-            MALE
-          </label>
-          <label>
-            <input id="female" type="checkbox" name="remember" />
-            FEMALE
-          </label>
-        </div>
-        <br />
-        <br />
-        <button  onclick="dayName()" type="button" class="btn btn-warning">
-          Know Your Akan Name
-        </button>
-      </form>
+      <img id="africa" src="images/africa.jpg" alt="" />
+      <a href="index.html">
+        <h3 id="title">
+          AKAN
+          <span id="secondname">NAMES.</span>
+        </h3>
+      </a>
+
+      <div class="container">
+        <h2>Enter Date of Birth;</h2>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="date">MONTH,DATE,YEAR:</label>
+            <input
+              function()
+              id="tarehe"
+              type="date"
+              class="form-control"
+              id="date"
+              placeholder="Enter date"
+              name="date"
+            />
+          </div>
+          <br />
+          <br />
+          <!--Checkbox-->
+          <div class="checkbox">
+            <label>
+              <input
+                onclick="birthYear()"
+                id="male"
+                type="checkbox"
+                name="remember"
+              />
+              MALE
+            </label>
+            <label>
+              <input id="female" type="checkbox" name="remember" />
+              FEMALE
+            </label>
+          </div>
+          <br />
+          <br />
+          <button onclick="dayName()" type="button" class="btn btn-warning">
+            Know Your Akan Name
+          </button>
+        </form>
+      </div>
     </div>
-  </div>
-  
-</body>
+    <div class="names">
+      <img src="images/names.jpg" alt="" />
+    </div>
+    <!--Footer-->
+    <div class="footer">
+      <p>copyrights 2021 @augustineteri157@gmail.com</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

@@ -7,9 +7,7 @@
 
 function dayName() {
   var birthYear = parseInt(document.getElementById("birthYear").value);
-  // if(birthYear.length !== 4) {
-      // alert("Year characters more than 4");
-  // }
+
 
    var month = parseInt(document.getElementById("month").value);
    
